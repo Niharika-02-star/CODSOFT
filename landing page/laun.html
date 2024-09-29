@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star - Your Home for Astrophiles</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         header {
+            background-color: #eae8e0e7;
+            padding: 10px;
+            color: #ec7575;
+        }
+      /* Logo styles */
+        .logo {
+            max-width: 100px;
+            border-radius: 50%;
+            position: right;
+            display: inline;
+        }
+        .nav {
+            margin-top: 10px;
+            font-size: 150%;
+            padding-left: 5%;
+        }
+        .nav a:hover {
+            color: #f39c12;
+        }
+        .row {
+            display: flex;
+            padding: 1%;
+        }
+        .column {
+            flex: 33.33%;
+            padding: 2px;
+            color:#FFFFFF
+        }
+        .about, .explore, .community, .contact {
+            margin-left: 10px;
+        }
+        .hero {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            height: 100%;
+            text-align: center;
+            justify-content: center;
+            padding-top: 10px;
+            color: #7af4fa;
+        }
+        .hero button {
+            color:black;
+        }
+        .about {
+            padding: 40px;
+            background-color: #FFFFFF;
+            background-image: url('tele.jpg');
+            height: 40%;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+            padding: 1%;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 2px;
+            color:#FFFFFF
+        }
+        .explore {
+            padding: 10px;
+            background-color: #FFFFFF;
+            background-image: url('expl.jpg');
+        }
+        .community {
+            padding: 50px;
+            background-color: #FFFFFF;
+            background-image: url('comm.webp');
+            color: #111;
+        }
+        .button{
+            align-items: center;
+        }
+
+        footer {
+            background-color: #9b0dae;
+            color: #f6f0f0;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        .footer li {
+            color: #111;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="row">
+            <div class="column">
+                <img src="logo.jpeg" alt="Logo" class="logo">
+            </div>  
+            <!-- Navigation Menu -->
+            <div class="column">
+                <nav>
+                    <div class="nav">
+                        <a href="#home">home</a>
+                        <a href="#About">About</a>
+                        <a href="#Community">community</a>
+                        <a href="Explore">Explore</a>
+                        <a href="#contact">Contact</a>
+                    </div>  
+                </nav>
+            </div>    
+        </div>                
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Background Image/Video -->
+        <!-- Headline and Subheading -->
+         <h1>Explore the Wonders of the Universe</h1><br>
+         <h2>Join our community of astrophiles and discover the secrets of the cosmos"
+        </h2><br>
+        <!-- Call-to-Action Button -->
+        <button>Start Exploring</button><br>
+    </section>
+        <!-- About Section -->
+    <section class="about">
+        <div class="row">
+           <!-- Title and Text -->
+           <div class="column">
+                <h1>About 'Star'-Your home</h1><br>
+                <p>"Step into StarHub, Your home where the universe comes alive for astrophiles like you. 
+                Share your fascination with the cosmos, connect with fellow space enthusiasts, and ignite meaningful conversations.
+                This is your haven to explore, discover, and belong – surrounded by those who share your passion for the stars.
+                Our mission is to inspire and educate astrophiles of all levels."
+                </p>
+            </div>    
+        <!-- Image -->
+            <div class="column">
+                <img src="about.webp" alt="Snow" style="width:90%;border-radius: 50%;height: 60%;">
+            </div>
+        </div>    
+    </section>
+
+    <!-- Explore Section -->
+    <section class="explore">
+        <!-- Title -->
+        <h1>Explore the love you had</h1><br>
+        <p>Here you can explore all the things you to know about stars ,planets, cosmos,galaxies,astronomical events ,what not every thing you desire </p>
+        <br>
+        <!-- Grid/Carousel -->
+        <div class="row">
+            <div class="column">
+                <img src="core.jpeg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="gal.avif" alt="Forest" style="width:100%;height: 60%;">
+            </div>
+            <div class="column">
+                <img src="dep.jpg" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="fb.png" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="even.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="stel.jpg" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community">
+        <div class="row">
+            <!-- Title and Text -->
+            <div class="column">
+                <img src="com.avif" alt="Snow" style="width:90%;border-radius: 50%;height: 90%;">
+            </div>
+            <div class="column">
+                 <h1>Join Our Community</h1><br>
+                 <p>"Connect with fellow astrophiles, share your discoveries, and learn from experts.
+                    Our mission is to inspire and educate astrophiles of all levels.
+                    Through this you can feel like as your in home and where you belong"
+                 </p>
+             </div>    
+            </div> 
+        <!-- Call-to-Action Button -->
+        <button type="submit">Sign-Up</button><br>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Essential Links</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Stay Connected</h5>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Astronomy Resources</h5>
+                    <ul>
+                        <li><a href="#">Astronomical Event Calendar</a></li>
+                        <li><a href="#">Stargazing Tips</a></li>
+                        <li><a href="#">Astrophile Community Guidelines</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Get Involved</h5>
+                    <ul>
+                        <li><a href="#">Newsletter Signup</a></li>
+                        <li><a href="#">Donate/Support</a></li>
+                        <li><a href="#">Careers/Jobs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 'Star'-Your Home. All rights reserved.
+            </div>
+        </div>            
+    </footer>
+
+</body>
+</html>

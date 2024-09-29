@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        body, html {
+            margin: 10;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            color: #333;
+            background-image: url("Free.webp");
+            background-size: cover;
+        }
+        header {
+            color: white;
+            padding: 40px;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            animation: glow is ease-in-out infinite alternate;
+            font-size: 30px;
+        }
+        .glow {
+            font-size: 60px;
+            color: #fff;
+             text-align: center;
+             animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+              from {
+              text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #72eded, 0 0 40px #00dee6, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+                 }
+  
+             to {
+             text-shadow: 0 0 20px #fff, 0 0 30px #f3ff4d, 0 0 40px #faf360, 0 0 50px #f7f45f, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+                 }
+        }
+        .nav {
+            margin-top: 10px;
+        }
+        .nav a:hover {
+            color: #f39c12;
+        }
+        .row {
+            display: flex;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .about {
+            padding: 40px;
+            height: 80%;
+        }
+ 
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+            padding: 1%;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 10px;
+            margin: 10PX;
+            color:#2b1616
+        }
+        .project {
+            padding: 10px;
+            height: 40%;
+        }
+ 
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+            padding: 1%;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 10px;
+            margin: 10PX;
+            color:#2b1616
+        }
+        .skills {
+            color: #f6f0f0;
+            padding: 20px;
+            text-align: center;
+            height:40%
+            
+        }
+        .skills li {
+            color: #111;
+
+        }
+        .resume-section {
+            color: #2f0e0e;
+            padding: 5px;
+            text-align: center;
+            height:40%
+        }    
+        .resume-section a {
+            padding: 15px 30px;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .resume-section a:hover {
+            background-color: #e9c2f1;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #2c3e50;
+            color: rgb(7, 1, 1);
+            font-size: 0.9em;
+        }
+        .footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+        .contact {
+            padding: 10px;
+            height: 40%;
+        }
+    </style>
+</head>
+    <body>
+        <h1 class="glow">NALUKURTHI NIHARIKA</h1>
+        
+        <header>
+          
+            <div class="nav">
+                <a href="#about">About</a>
+                <a href="#skills">skills</a>
+                <a href="#projects">Projects</a>
+                <a href="resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </header>
+        <section class="about">
+            <div class="row">
+               <!-- Title and Text -->
+               <div class="column">
+                <h1>About Me</h1><br>
+                    <p>I'm Nalukurthi Niharika,currently doing my
+                        final year at Sri Padmavathi Mahila University 
+                       in Tirupathi with Btech in CSE. As a web developer enthusiast, I have been
+                       honing my skills in both front-end and back-end technologies,
+                       always striving to create clean, efficient and user friendly
+                       web applications.
+                      I'm constantly exploring new techniques and staying up-to-date with the latest 
+                       trends in the tech world. As I near graduation, I'm excited to transition into  
+                       the professional world and apply the knowledge and experience I've gained to 
+                       real-world projects. 
+                    </p>
+                </div>    
+            <!-- Image -->
+                <div class="column">
+                    <img src="prof.jpg" alt="Snow" style="width:80%;border-radius: 50%;">
+                </div>
+            </div>    
+        </section>
+        <section class="Project">
+            <div class="row">
+                <!-- Title and Text -->
+                <div class="column">
+                    <img src="pro.webp" alt="Snow" style="width:90%;border-radius: 50%;height: 90%;">
+                </div>
+                <div class="column">
+                    <h3>Project one</h3>
+                    <p>I successfully completed my first project in Python full stack
+                        at ExcelR.This project involved building a complete web application
+                        using python as the core back-end technology, integrating it with 
+                        front-end frameworks and databases. Through this project, I gained
+                        hands-on experience in designing, developing, and deploying full-stack applications.
+                        The project challenged me to apply my skills in various aspects, including 
+                        API integration, database management, and front-end development, while ensuring
+                         performance optimization and seamless user experiences. It was a crutial milestone
+                         that boosted my confidence in handling real-world web development scenarios.
+                    </p>
+                    <a href="EXCELR-74432-N Niharika.pdf" target="_blank">Click Here</a>
+                 </div>    
+                </div> 
+            <!-- Call-to-Action Button -->
+            <button type="submit">Sign-Up</button><br>
+        </section>
+        <section>
+            <div class="skills"></div>
+                <h1>skills</h1>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>technical skills</h5>
+                        <ul>
+                            <li><a href="#">c</a></li>
+                            <li><a href="#">basics of java</a></li>
+                            <li><a href="#">python</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>technical skills</h5>
+                        <ul>
+                            <li><a href="#">html,css,js</a></li>
+                            <li><a href="#">vfx</a></li>
+                            <li><a href="#">basics of sql</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>soft skills</h5>
+                        <ul>
+                            <li><a href="#">active listner</a></li>
+                            <li><a href="#">creative</a></li>
+                            <li><a href="#">hard working</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>soft skills</h5>
+                        <ul>
+                            <li><a href="#">time management</a></li>
+                            <li><a href="#">leadership</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <img src="girl.avif" alt="Snow" style="width:50%;border-radius: 50%;height: 70%;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="resume-section">
+                <h1>Resume</h1>
+                <a href="resume (1).pdf" target="_blank">Download Resume</a>
+            </div>
+        </section>
+        <section>
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <p> If you'd like to Get
+                in touch with me, fell free to reach out via email at 
+                <a href="mail to: niharikanalukurthi@gmail.com">niharikanalukurthi@gmail.com</a>
+                </p>
+            </div>        
+        </section>
+        <footer>
+            &copy; Nalukurthi Niharika |
+            <a href="https://github.com/vaishnavi-64/CODSOFT">github</a>|
+            <a href="https://www.linkedin.com/in/vaishnavi-posa-3a3742268?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWkMz0qCWQ4mv23KVy2UAYw%3D%3D">
+            linkedin</a>
+            <div class="copyright">
+                &copy; All rights reserved.
+            </div>
+        </footer>
+        <script>
+            document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+                anchor.addEventListner('click',function(e));{
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behaviour:'smooth'
+                    })
+                }
+            })
+            const TypewriterText="Welcome to My Portfolio!";
+            let i=0;
+            function typewriter(){
+                if(i<typewriterText.lenght){
+                    document.getElementById("typewriter").innerHTML+=TypewriterText.chatAt(i);
+                    i++;
+                    setTimeout(typeWriter,100);
+                }
+            }
+            window.onload=Typewriter;
+        </script>
+    </body>        
+</html>        
